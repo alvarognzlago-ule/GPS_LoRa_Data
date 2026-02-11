@@ -28,8 +28,8 @@ El proyecto incluye análisis visuales de la degradación de la señal respecto 
 
 ## Hardware Utilizado
 
-* **Módulo LoRa:** (Ej: Semtech SX1276 / Heltec WiFi LoRa 32)
-* **Módulo GPS:** (Ej: NEO-6M / NEO-8M)
+* **Módulo LoRa:** M5 Stack Core 2 (ASR6501)
+* **Módulo GPS:** NEO-8M
 * **Antenas:** Comparativa entre antena monopolo de 2dBi (pequeña) vs antena de alta ganancia (grande).
 
 ## Valoración Técnica de los Datos
