@@ -48,7 +48,7 @@ Los datos etiquetados como **"interior"** muestran una degradación esperada en 
 * **Precisión GPS:** Inestabilidad en las lecturas, especialmente visible en las **altitudes variables**, causadas por el efecto *multipath* (rebote de señal) y la falta de línea de visión directa con los satélites.
 
 ### 4. Precisión y Entorno GPS
-Los registros sugieren un entorno de pruebas con desafíos estructurales (zona urbana o campus):
+Los registros se realizaron un entorno de pruebas con desafíos estructurales (campus):
 * **Fluctuaciones de Altitud:** Se observan variaciones típicas de receptores GPS comerciales cuando no existe una línea de visión perfecta (**LOS - *Line of Sight***).
 * **Consistencia Geográfica:** A pesar de las variaciones de altitud, el posicionamiento horizontal (latitud/longitud) se mantiene suficientemente estable para aplicaciones de seguimiento y monitorización de activos.
 
