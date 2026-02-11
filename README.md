@@ -32,6 +32,31 @@ El proyecto incluye análisis visuales de la degradación de la señal respecto 
 * **Módulo GPS:** (Ej: NEO-6M / NEO-8M)
 * **Antenas:** Comparativa entre antena monopolo de 2dBi (pequeña) vs antena de alta ganancia (grande).
 
+## Valoración Técnica de los Datos
+* 1. Comparativa de Antenas
+Se observa una diferencia clara en la estabilidad de la señal entre ambos dispositivos. La "antena grande" muestra, en general, valores de RSSI (fuerza de la señal) más consistentes en distancias mayores en comparación con la antena pequeña, lo que sugiere una mayor ganancia y mejor capacidad de recepción en el límite del alcance.
+
+* 2. Calidad de Señal (SNR vs. RSSI)
+Las gráficas revelan un comportamiento típico pero optimizado de la tecnología LoRa:
+
+Aunque el RSSI decae progresivamente con la distancia, el SNR (Signal-to-Noise Ratio) se mantiene en niveles positivos o cercanos a cero en la mayoría de los puntos exteriores.
+
+Esto es vital, ya que demuestra la capacidad de LoRa para decodificar paquetes incluso por debajo del nivel de ruido, manteniendo la integridad de los datos a pesar de la atenuación.
+
+* 3. Comportamiento en Interiores
+Los datos etiquetados específicamente como "interior" muestran una degradación esperada en dos frentes:
+
+Señal LoRa: Caídas notables y abruptas en el RSSI debido a la absorción de materiales de construcción.
+
+Precisión GPS: Inestabilidad en las lecturas, especialmente visible en las altitudes variables, causadas por el rebote de señal (multipath) y la falta de visión directa al satélite.
+
+* 4. Precisión y Entorno GPS
+Las coordenadas sugieren un entorno de pruebas específico (posiblemente un campus o zona urbana/rural mixta).
+
+Fluctuaciones de Altitud: Se observan variaciones típicas de receptores GPS comerciales cuando no existe una línea de visión perfecta (LOS - Line of Sight).
+
+Consistencia Geográfica: A pesar de las variaciones de altitud, el posicionamiento horizontal (latitud/longitud) se mantiene suficientemente estable para aplicaciones de seguimiento de activos.
+
 ## Conclusiones Principales
 
 * La **antena de mayor ganancia** reduce significativamente la pérdida de paquetes en zonas de sombra.
